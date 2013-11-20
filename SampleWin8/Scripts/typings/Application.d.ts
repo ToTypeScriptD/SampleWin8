@@ -1,1 +1,1 @@
-﻿declare var Application: any;
+﻿// Place project level type declarations needed in here.
