@@ -60,11 +60,20 @@
     <Content Include="images\smalllogo.png" />
     <Content Include="images\splashscreen.png" />
     <Content Include="images\storelogo.png" />
-    <Content Include="js\default.js" />
-    <Content Include="js\navigator.js" />
+    <Content Include="js\default.js">
+      <DependentUpon>default.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="js\default.ts" />
+    <Content Include="js\navigator.js">
+      <DependentUpon>navigator.ts</DependentUpon>
+    </Content>
+    <TypeScriptCompile Include="js\navigator.ts" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />
-    <Content Include="pages\home\home.js" />
+    <Content Include="pages\home\home.ts" />
+    <Content Include="pages\home\home.js">
+      <DependentUpon>home.ts</DependentUpon>
+    </Content>
     <Content Include="default.html" />
     
     <None Include="SampleWin8_TemporaryKey.pfx" />
