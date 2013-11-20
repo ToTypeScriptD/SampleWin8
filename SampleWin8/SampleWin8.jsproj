@@ -74,6 +74,7 @@
     </Content>
     <Content Include="default.html" />
     <None Include="SampleWin8_TemporaryKey.pfx" />
+    <TypeScriptCompile Include="Scripts\typings\Application.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\winjs.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\winrt.d.ts" />
   </ItemGroup>
