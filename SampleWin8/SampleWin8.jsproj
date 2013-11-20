@@ -75,6 +75,7 @@
     <Content Include="default.html" />
     <None Include="SampleWin8_TemporaryKey.pfx" />
     <TypeScriptCompile Include="Scripts\typings\winjs.d.ts" />
+    <TypeScriptCompile Include="Scripts\typings\winrt.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
