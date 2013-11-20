@@ -47,9 +47,7 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    
     <PackageCertificateKeyFile>SampleWin8_TemporaryKey.pfx</PackageCertificateKeyFile>
-    
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -75,9 +73,8 @@
       <DependentUpon>home.ts</DependentUpon>
     </Content>
     <Content Include="default.html" />
-    
     <None Include="SampleWin8_TemporaryKey.pfx" />
-    
+    <TypeScriptCompile Include="Scripts\typings\winjs.d.ts" />
   </ItemGroup>
   <ItemGroup>
     <SDKReference Include="Microsoft.WinJS.1.0, Version=1.0" />
